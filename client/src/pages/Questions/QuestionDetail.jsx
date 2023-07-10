@@ -86,7 +86,7 @@ const dispatch =useDispatch()
 const User =useSelector((state)=>(state.currentUserReducer))
 const location=useLocation();
 console.log(location)
-const url = "http://localhost:3000";    //  this is been used to  give pathname of the particyular question 
+const url = "https://stack-overflow-piyush08.netlify.app";    //  this is been used to  give pathname of the particyular question 
 
 const handlePostans =(e,answerLength)=>{
   e.preventDefault()

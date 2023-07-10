@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API=  axios.create({baseURL:"http://localhost:5000"}) // providing backenend url
+const API=  axios.create({baseURL:"https://stack-overflow-server-5h6z.onrender.com"}) // providing backenend url
 
 
 API.interceptors.request.use((req) => {
